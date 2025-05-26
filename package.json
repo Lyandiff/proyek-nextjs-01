@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "coba": "tsc ./src/lib/cobaPrint.ts --outFile ./tes.js && node ./tes.js"
   },
   "dependencies": {
     "react": "^19.0.0",
